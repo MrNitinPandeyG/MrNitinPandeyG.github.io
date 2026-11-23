@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nitin Pandey | Aspiring Software Developer</title>
+  <meta name="description" content="Portfolio of Nitin Pandey, B.Tech CSE (AI & ML) student at SRMU Lucknow.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Fraunces:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#home" class="logo">Nitin Pandey</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">Menu</button>
+      <nav id="navLinks">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1>Nitin Pandey</h1>
+          <p class="role">Aspiring Software Developer &middot; B.Tech CSE (AI &amp; ML) Student</p>
+          <p class="lead">I'm a second-year student at SRMU, Lucknow, learning to build useful things with code. Right now I'm working on Java, Python and web development.</p>
+          <div class="btn-row">
+            <a href="#projects" class="btn btn-primary">See my projects</a>
+            <a href="#contact" class="btn btn-ghost">Get in touch</a>
+          </div>
+        </div>
+        <div class="photo-wrap">
+          <img src="photo.jpg" alt="Nitin Pandey" id="profilePhoto" onerror="this.style.display='none'; document.getElementById('photoFallback').style.display='flex';">
+          <div class="photo-fallback" id="photoFallback">NP</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container narrow">
+        <h2>About me</h2>
+        <p>My name is Nitin Pandey. I am a B.Tech Computer Science and Engineering student specializing in Artificial Intelligence and Machine Learning at Shri Ramswaroop Memorial University, Lucknow.</p>
+        <p>I am passionate about technology, software development, and learning new programming skills. I am currently learning Java, Python, HTML, CSS, and JavaScript, and I am working on improving my problem-solving skills.</p>
+        <p>I enjoy exploring new technologies and working on practical projects. My goal is to become a skilled software developer and build useful real-world applications.</p>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section alt">
+      <div class="container narrow">
+        <h2>Education</h2>
+        <ul class="timeline">
+          <li>
+            <span class="year">Present</span>
+            <div>
+              <h3>B.Tech in Computer Science &amp; Engineering (AI &amp; ML)</h3>
+              <p>Shri Ramswaroop Memorial University, Lucknow</p>
+              <p class="muted">2nd Year, 4th Semester &middot; CGPA: 6.5</p>
+            </div>
+          </li>
+          <li>
+            <span class="year">2025</span>
+            <div>
+              <h3>Intermediate (12th)</h3>
+              <p>Uttar Pradesh Board</p>
+              <p class="muted">68%</p>
+            </div>
+          </li>
+          <li>
+            <span class="year">2023</span>
+            <div>
+              <h3>High School (10th)</h3>
+              <p>Uttar Pradesh Board</p>
+              <p class="muted">80%</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container narrow">
+        <h2>Skills</h2>
+        <div class="skill-groups">
+          <div class="skill-card">
+            <h3>Programming</h3>
+            <ul>
+              <li>Java <span class="level">Beginner</span></li>
+              <li>Python <span class="level">Basic</span></li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Web</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript <span class="level">Basic</span></li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Other</h3>
+            <ul>
+              <li>Problem solving</li>
+              <li>Basic computer knowledge</li>
+              <li>Git &amp; GitHub <span class="level">Learning</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section alt">
+      <div class="container narrow">
+        <h2>Projects</h2>
+        <div class="project-list">
+          <article class="project">
+            <h3>Water Tank Alarm System</h3>
+            <p>A water tank monitoring and alert system that shows the water level and helps prevent the tank from overflowing.</p>
+            <ul class="points">
+              <li>Uses two white LEDs and one red LED</li>
+              <li>Gives a visual indication of the water level</li>
+              <li>Red LED turns on when the tank is full</li>
+            </ul>
+          </article>
+          <article class="project">
+            <h3>Personal Portfolio Website</h3>
+            <p>This website. It showcases my profile, education, technical skills, projects and contact information.</p>
+            <p class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GOAL -->
+    <section class="section">
+      <div class="container narrow">
+        <h2>Career goal</h2>
+        <p>My goal is to become a successful Software Developer and work with leading technology companies. I want to keep improving my programming, problem-solving and software development skills while exploring Artificial Intelligence and Machine Learning, and to build applications that solve real problems.</p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt">
+      <div class="container narrow">
+        <h2>Contact</h2>
+        <p>Feel free to reach out. I'm always happy to talk about tech, projects or opportunities.</p>
+        <ul class="contact-list">
+          <li><span>Email</span><a href="mailto:pandeynitin1828@gmail.com">pandeynitin1828@gmail.com</a></li>
+          <li><span>Phone</span><a href="tel:+919250858421">+91 92508 58421</a></li>
+          <li><span>Location</span>Lucknow, Uttar Pradesh, India</li>
+        </ul>
+        <div class="btn-row">
+          <a class="btn btn-ghost" href="https://github.com/MrNitinPandeyG" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/nitin-pandey-a7704b370" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn btn-ghost" href="https://www.instagram.com/__nitinpandey_" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year">2026</span> Nitin Pandey</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
